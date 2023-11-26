@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000107;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #0c0c10;
+    padding: 15px;
+    border-radius: 15px;
+    color: #6EABD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 38%;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+fieldset {
+    border: 3px solid #2B78B4;
+    border-radius: 10px;
+}
+
+legend {
+    background-color: #2B78B4;
+    padding: 9px;
+    border-radius: 7px;
+    color: #03111b;
+    font-size: 20px;
+}
+
+input {
+    background: none;
+    border: 2px solid #6EABD9;
+    border-radius: 5px;
+    padding: 4px;
+    color: #6EABD9;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: #6EABD9;
+    border: none;
+    width: 45%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2B78B4;
+}
+
+#resul {
+    color: #6EABD9;
+    margin-top: 20px;
+}
+
+#resul, p {
+    font-size: 18px;
+}
+
+#titulo1 {
+    margin-top: 45px;
+}
+
+#qtdprod1, #valorprod1, #qtdprod2, #valorprod2, #qtdprod3, #valorprod3 {
+    margin-top: 15px;
+}
+
+#voltar {
+    width: auto;
+    margin-top: 800px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        background-color: #0c0c10;
+        padding: 15px;
+        border-radius: 15px;
+        color: #6EABD9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        background-color: #0c0c10;
+        padding: 15px;
+        border-radius: 15px;
+        color: #6EABD9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 07</title>
+    <link rel="stylesheet" href="style07.css">
+</head>
+
+<body>
+    <a href="index.html"><button id="voltar">Voltar</button></a>
+    <div class="container">
+        <fieldset>
+            <legend>Vários valores</legend>
+            <p>Insira quantos valores quiser:</p>
+            <input type="text" id="val">
+            <button onclick="adval()" id="ad">Adicionar valor</button>
+            <button onclick="mostval()" id="mostrar">Mostrar valores</button>
+            <br>
+            <button onclick="maiorval()" id="maior">Maior valor</button>
+            <button onclick="menorval()" id="menor">Menor valor</button>
+
+            <p id="valinseri"></p>
+            <p id="valmaior"></p>
+            <p id="valmenor"></p>
+        </fieldset>
+    </div>
+    <script src="script07.js"></script>
+</body>
+
+</html>

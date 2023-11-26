@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 06</title>
+    <link rel="stylesheet" href="style06.css">
+</head>
+
+<body>
+    <a href="index.html"><button id="voltar">Voltar</button></a>
+    <div class="container">
+        <fieldset>
+            <legend>Peso Ideal</legend>
+            <p>Informe o sexo:</p>
+            <select id="sexo">
+                <option value=""></option>
+                <option value="h">Homem</option>
+                <option value="m">Mulher</option>
+            </select>
+            <p>Informe a altura (em metros):</p>
+            <input type="number" id="alt">
+            <button onclick="calc()">Calcular</button>
+            <div id="resul"></div>
+        </fieldset>
+    </div>
+    <script src="script06.js"></script>
+</body>
+
+</html>
